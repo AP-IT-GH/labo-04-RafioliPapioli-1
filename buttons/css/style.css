@@ -4,17 +4,36 @@ h1{
 }
 
 button{
+    border: initial;
     padding: 10px 20px;
     font-size: 16px;
-    border: 2px solid lightgrey;
     background-color: rgb(39, 128, 186);
     color: white;
     cursor: pointer;
-    transition: all 0.3s ease;
     border-radius: 5px;
-    transform: translateY(2px)
 }
 
-.button1{
+.button1:hover{
+    outline: 2px solid black;
 
+}
+
+.button2 {
+    transition: all 0.3s ease;
+
+}
+
+.button2:hover{
+    transform: translateY(2px);
+    transition: all 0.3s ease;
+}
+
+.button3{
+    outline: 8px solid transparent;
+    transition: all 1s ease;
+    
+}
+.button3:hover{
+    outline: 4px solid skyblue;
+    transition: all 1s ease;
 }
