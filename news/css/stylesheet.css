@@ -1,0 +1,27 @@
+h1{
+    background-color: black;
+    color: white;
+    size: 2.5rem;
+    padding: 60px 0;
+    margin-bottom: 0px;
+}
+
+
+section{
+    background-color: rgb(254, 0, 2);
+    color: white;
+    padding: 60px 30px;
+    text-decoration: underline;
+}
+
+h2,h3{
+    text-align: center;
+}
+
+footer{
+    background-color: #ccc;
+    border: 2px dashed ;
+    font-size: 1rem;
+    padding-top: 60px;
+    padding: 60px 30px ;
+}

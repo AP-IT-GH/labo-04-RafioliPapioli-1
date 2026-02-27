@@ -1,0 +1,56 @@
+body{
+    color: rgb(193, 193, 193);
+}
+
+h1{
+    color: rgb(94, 95, 89);
+    background-color: rgb(224, 224, 224);
+    padding: 20px;
+    margin: 0 0 5px 0;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table p{
+    margin: 0;
+    padding: 6px 10px;
+    color: white;
+    font-size: 14px;
+}
+
+:root {
+    --hue: 200;
+    --lum: 40%;
+}
+
+td {
+    background-color: hsl(var(--hue), 100%, var(--lum));
+}
+td.blue {
+    --hue: 200;
+}
+td.green {
+    --hue: 160;
+}
+td.pink {
+    --hue: 320;
+}
+
+.td15{--lum: 40%;}
+.td14{--lum: 45%;}
+.td13{--lum: 50%;}
+.td12{--lum: 55%;}
+.td11{--lum: 60%;}
+.td10{--lum: 65%;}
+.td9{--lum: 70%}
+.td8{--lum:40%}
+.td1{--lum: 40%;}
+.td2{--lum: 45%;}
+.td3{--lum: 50%;}
+.td4{--lum: 55%;}
+.td5{--lum: 60%;}
+.td6{--lum: 65%;}
+.td7{--lum: 70%}
+.td8{background-color:  hsl(148, 100%, 50%);}
