@@ -1,0 +1,25 @@
+header{
+    border: 2px solid;
+}
+
+nav{
+    border: 2px solid;
+}
+
+h1{
+    border: 1px solid;
+    margin: 0 0;
+}
+
+article{
+    border: 2px dotted rgb(255, 118, 115);
+    
+}
+
+aside {
+    border: 2px solid;
+}
+
+footer{
+    border: 2px solid;
+}
